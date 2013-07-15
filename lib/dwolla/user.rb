@@ -11,6 +11,7 @@ module Dwolla
                   :type,
                   :contact_type,
                   :image,
+                  :zip,
                   :oauth_token
 
     def initialize(attrs={})
