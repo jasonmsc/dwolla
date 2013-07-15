@@ -2,9 +2,6 @@ module Dwolla
   class User
     include Dwolla::Connection
 
-    attr_accessor :registrationstep
-    
-=begin
     attr_accessor :id,
                   :name,
                   :latitude,
@@ -17,7 +14,6 @@ module Dwolla
                   :zip,
                   :registrationstep,
                   :oauth_token
-=end
     
     def initialize(attrs={})
       update_attributes(attrs)
